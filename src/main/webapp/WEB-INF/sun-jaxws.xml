@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<endpoints xmlns="http://java.sun.com/xml/ns/jax-ws/ri/runtime"
+           version="2.0">
+    <endpoint name="RandomQuoteServiceImpl"
+              implementation="ge.edu.btu.latsabidze.homework.CovidStatisticsServiceImpl"
+              url-pattern="/getStatistics" />
+
+    <endpoint name="RandomQuoteServiceImpl"
+              implementation="ge.edu.btu.latsabidze.homework.CovidStatisticsServiceImpl"
+              url-pattern="/getCountryStatistic" />
+
+    <endpoint name="RandomQuoteServiceImpl"
+              implementation="ge.edu.btu.latsabidze.homework.CovidStatisticsServiceImpl"
+              url-pattern="/getConfirmed" />
+
+    <endpoint name="RandomQuoteServiceImpl"
+              implementation="ge.edu.btu.latsabidze.homework.CovidStatisticsServiceImpl"
+              url-pattern="/getTotalDeath" />
+
+    <endpoint name="RandomQuoteServiceImpl"
+              implementation="ge.edu.btu.latsabidze.homework.CovidStatisticsServiceImpl"
+              url-pattern="/getRecovered" />
+</endpoints>
